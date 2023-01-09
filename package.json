@@ -1,0 +1,15 @@
+{
+  "name": "garfish-demo",
+  "private": true,
+  "scripts": {
+    "start": "lerna bootstrap && lerna run --parallel start",
+    "build": "lerna run build",
+    "init": "lerna init"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "webpack": "^5.75.0"
+  }
+}
