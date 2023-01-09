@@ -6,6 +6,9 @@ function Home({ msg }) {
 }
 
 const App = ({ props, basename }) => {
+    // React.useEffect(() => {
+    //     throw '123';
+    // }, []);
     // basename 就是 /sub  => activeWhen配置
     return (
         <BrowserRouter basename={basename}>
