@@ -7,7 +7,7 @@
     "init": "lerna init"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^3.22.1"
   },
   "dependencies": {
     "webpack": "^5.75.0"
